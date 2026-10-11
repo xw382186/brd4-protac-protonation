@@ -1,0 +1,9 @@
+name: brd4-protac-protonation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.16
+  - pip
+  - pip:
+      - numpy==2.4.6
+      - rdkit==2026.3.5

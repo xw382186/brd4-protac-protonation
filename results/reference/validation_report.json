@@ -1,0 +1,58 @@
+{
+  "verification_date_utc": "2026-10-11T14:36:26.530063+00:00",
+  "numerical_environment": {
+    "python": "3.11.16",
+    "rdkit": "2026.03.5",
+    "numpy": "2.4.6"
+  },
+  "numerical_command": "python scripts/reproduce.py --output-dir NEW_DIRECTORY",
+  "test_command": "python -m unittest discover -s tests -v",
+  "unit_tests_passed": 7,
+  "unit_tests_failed": 0,
+  "checks": [
+    "Original script SHA256 unchanged",
+    "20 calibration inputs and full-precision fitted/LOO outputs",
+    "Table S4C coefficients and validation statistics",
+    "Table S4A pKa, percentages and selected N indices",
+    "Original input SMILES strings and current S4A labels",
+    "Refusal to overwrite existing numerical output directory",
+    "One generic-amine scientific rule-row change"
+  ],
+  "si_table_s4a_pka": [
+    9.59,
+    10.01,
+    9.51,
+    9.93
+  ],
+  "si_table_s4a_protonated_percent": [
+    99.4,
+    99.8,
+    99.2,
+    99.7
+  ],
+  "enumeration_environment": {
+    "dimorphite_dl": "2.0.2",
+    "rdkit": "2025.09.6",
+    "loguru": "0.7.3"
+  },
+  "enumeration_result": {
+    "5": {
+      "unique_states": 1,
+      "formal_charge": 1
+    },
+    "6": {
+      "unique_states": 1,
+      "formal_charge": 1
+    },
+    "7": {
+      "unique_states": 1,
+      "formal_charge": 1
+    },
+    "8": {
+      "unique_states": 1,
+      "formal_charge": 1
+    }
+  },
+  "enumeration_compatibility_check": "Isolated Dimorphite-DL/Loguru with RDKit 2026.03.5 gave identical state records; this RDKit version is outside Dimorphite-DL 2.0.2 declared bounds",
+  "installed_rules_unchanged_after_enumeration": true
+}

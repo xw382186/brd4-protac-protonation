@@ -1,0 +1,7 @@
+Rule recorded in the original pKa_METHODS.md, section 4.4.
+Original: [C:1]-[NX3+0:2]
+Modified: [C:1]-[NX3+0;!$(N[CX3]=[OX1,SX1]);!$(N[SX4](=O)=O);!$(N[CX3]=[NX2]);!$(Na);!$(N[NX3,NX2]);!$(N=*);!$(N#*):2]
+Site index: 1 (zero based within SMARTS match)
+Mean: 8.159107682388349; standard deviation: 2.5183597445318147
+Call: protonate_smiles(smi, ph_min=7.4, ph_max=7.4, precision=0.0, max_variants=32)
+This is a transcription of the archived method record, not a recovered original diff file.

@@ -1,0 +1,21 @@
+name,smiles,input_pKa,source
+ammonia,N,9.25,Archived script REF list; SI Table S4B
+methylamine,CN,10.66,Archived script REF list; SI Table S4B
+ethylamine,CCN,10.7,Archived script REF list; SI Table S4B
+dimethylamine,CNC,10.73,Archived script REF list; SI Table S4B
+trimethylamine,CN(C)C,9.8,Archived script REF list; SI Table S4B
+triethylamine,CCN(CC)CC,10.75,Archived script REF list; SI Table S4B
+pyrrolidine,C1CCNC1,11.27,Archived script REF list; SI Table S4B
+piperidine,C1CCNCC1,11.12,Archived script REF list; SI Table S4B
+azetidine,C1CNC1,11.29,Archived script REF list; SI Table S4B
+N-methylpyrrolidine,CN1CCCC1,10.32,Archived script REF list; SI Table S4B
+N-methylpiperidine,CN1CCCCC1,10.08,Archived script REF list; SI Table S4B
+morpholine,C1COCCN1,8.36,Archived script REF list; SI Table S4B
+N-methylmorpholine,CN1CCOCC1,7.38,Archived script REF list; SI Table S4B
+ethanolamine,NCCO,9.5,Archived script REF list; SI Table S4B
+2-methoxyethylamine,NCCOC,9.4,Archived script REF list; SI Table S4B
+diethanolamine,OCCNCCO,8.88,Archived script REF list; SI Table S4B
+triethanolamine,OCCN(CCO)CCO,7.76,Archived script REF list; SI Table S4B
+ethylenediamine (pKa1),NCCN,9.92,Archived script REF list; SI Table S4B
+glycinamide,NCC(N)=O,8.2,Archived script REF list; SI Table S4B
+3-aminopropanamide,NCCC(N)=O,9.3,Archived script REF list; SI Table S4B

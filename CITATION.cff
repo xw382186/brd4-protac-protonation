@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite this versioned repository when using these calculation files."
+title: "BRD4 PROTAC protonation calculations"
+type: software
+authors:
+  - family-names: Xia
+    given-names: Wei
+repository-code: "https://github.com/xw382186/brd4-protac-protonation"
+version: "1.0.0"

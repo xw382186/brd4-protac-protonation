@@ -1,0 +1,15 @@
+{
+  "scientific_scope": "SI Protonation Assessment and Tables S4A-S4C",
+  "supplied_si_filename": "Supplemental Information-2.docx",
+  "supplied_si_sha256": "65178160f3ac61db7dd5bd2a9c35be36a140589314749bda540bf05f5c993a14",
+  "archived_pka_script_sha256": "305e0cf22629f5e0afbc9c1e14d3cba1d8e3b73a99369ffbf63998c8c622c650",
+  "archived_modified_rule_sha256": "e2d3254ced2a2a744ca8f11d7d2eedde7c0c0267c2692bb539bcf78f306bf580",
+  "deposited_modified_rule_sha256": "1fda9f2ba85a36437c58e2c4665e932a52d95153d328644912794471c0c0c7e3",
+  "rule_export_change": "Three attribution/modification comment lines added; scientific rule rows unchanged",
+  "numerical_reference_results": "2026-10-05 reproduction of archived script, with portable repository path and current SI CSV table labels",
+  "new_repository_wrappers": [
+    "scripts/reproduce.py",
+    "scripts/enumerate_states.py"
+  ],
+  "calibration_pka_source": "Literal archived REF entries, matching SI Table S4B; per-entry literature citations not assigned in supplied source"
+}

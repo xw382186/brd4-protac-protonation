@@ -1,0 +1,5 @@
+compound,state_index,formal_charge,smiles
+5,1,1,Cc1sc2c(c1C)C(c1ccc(Cl)cc1)=N[C@@H](CC(=O)NCC[NH+]1CC3(CC(c4ccc5c(c4)C(=O)N([C@H]4CCC(=O)NC4=O)C5)C3)C1)c1nnc(C)n1-2
+6,1,1,Cc1sc2c(c1C)C(c1ccc(Cl)cc1)=N[C@@H](CC(=O)NCCC[NH+]1CC3(CC(c4ccc5c(c4)C(=O)N([C@H]4CCC(=O)NC4=O)C5)C3)C1)c1nnc(C)n1-2
+7,1,1,Cc1sc2c(c1C)C(c1ccc(Cl)cc1)=N[C@@H](CC(=O)NCC[NH+]1CCC3(CC1)CN(c1ccc4c(c1)C(=O)N([C@H]1CCC(=O)NC1=O)C4)C3)c1nnc(C)n1-2
+8,1,1,Cc1sc2c(c1C)C(c1ccc(Cl)cc1)=N[C@@H](CC(=O)NCCC[NH+]1CCC3(CC1)CN(c1ccc4c(c1)C(=O)N([C@H]1CCC(=O)NC1=O)C4)C3)c1nnc(C)n1-2

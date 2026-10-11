@@ -1,0 +1,5 @@
+# Optional enumeration environment; distinct from the numerical pKa regression environment.
+# Versions recorded in the archived preparation runtime.
+dimorphite-dl==2.0.2
+rdkit==2025.9.6
+loguru==0.7.3

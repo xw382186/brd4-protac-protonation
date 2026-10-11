@@ -1,0 +1,6 @@
+coefficient,model_term,value_unrounded,si_table_s4c_rounded
+b0,intercept,10.175419379262436,10.1754
+b1,sigma_ind,-6.6536099388676595,-6.6536
+b2,secondary_indicator,0.8826948104437108,0.8827
+b3,tertiary_indicator,0.11394048632617047,0.1139
+b4,ring_hetero,-13.035554581127965,-13.0356

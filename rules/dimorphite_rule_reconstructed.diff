@@ -1,0 +1,11 @@
+--- /scratch/wx2237/kaitlyn/BRD4/(1-12)protonation_20260906/pylib/dimorphite_dl/smarts/site_substructures.smarts.orig
++++ /scratch/wx2237/kaitlyn/BRD4/(1-12)protonation_20260906/pylib/dimorphite_dl/smarts/site_substructures.smarts
+@@ -52,7 +52,7 @@
+ Anilines_secondary	[c:1]-[NX3+0:2]([H:3])[!H:4]	1	4.335408163265306	2.1768842022330843
+ Anilines_tertiary	[c:1]-[NX3+0:2]([!H:3])[!H:4]	1	4.16690685045614	2.005865735782679
+ Aromatic_nitrogen_unprotonated	[n+0&H0:1]	0	4.3535441240733945	2.0714072661859584
+-Amines_primary_secondary_tertiary	[C:1]-[NX3+0:2]	1	8.159107682388349	2.5183597445318147
++Amines_primary_secondary_tertiary	[C:1]-[NX3+0;!$(N[CX3]=[OX1,SX1]);!$(N[SX4](=O)=O);!$(N[CX3]=[NX2]);!$(Na);!$(N[NX3,NX2]);!$(N=*);!$(N#*):2]	1	8.159107682388349	2.5183597445318147
+ 
+ # e.g., [*]P(=O)(O[H])[*]. Note that cannot match the internal phosphates of ATP, because
+ # oxygen is not among [C,c,N,n,F,Cl,Br,I]

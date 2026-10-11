@@ -1,0 +1,62 @@
+{
+  "software": {
+    "dimorphite_dl": "2.0.2",
+    "rdkit": "2025.09.6"
+  },
+  "compounds": [
+    {
+      "compound": "5",
+      "input_smiles": "ClC1=CC=C(C2=N[C@H](C(N3C4=C2C(C)=C(C)S4)=NN=C3C)CC(NCCN5CC6(C5)CC(C6)C7=CC=C(CN([C@@H]8C(NC(CC8)=O)=O)C9=O)C9=C7)=O)C=C1",
+      "number_of_unique_states": 1,
+      "states": [
+        {
+          "smiles": "Cc1sc2c(c1C)C(c1ccc(Cl)cc1)=N[C@@H](CC(=O)NCC[NH+]1CC3(CC(c4ccc5c(c4)C(=O)N([C@H]4CCC(=O)NC4=O)C5)C3)C1)c1nnc(C)n1-2",
+          "formal_charge": 1
+        }
+      ]
+    },
+    {
+      "compound": "6",
+      "input_smiles": "ClC1=CC=C(C2=N[C@H](C(N3C4=C2C(C)=C(C)S4)=NN=C3C)CC(NCCCN5CC6(C5)CC(C6)C7=CC=C(CN([C@@H]8C(NC(CC8)=O)=O)C9=O)C9=C7)=O)C=C1",
+      "number_of_unique_states": 1,
+      "states": [
+        {
+          "smiles": "Cc1sc2c(c1C)C(c1ccc(Cl)cc1)=N[C@@H](CC(=O)NCCC[NH+]1CC3(CC(c4ccc5c(c4)C(=O)N([C@H]4CCC(=O)NC4=O)C5)C3)C1)c1nnc(C)n1-2",
+          "formal_charge": 1
+        }
+      ]
+    },
+    {
+      "compound": "7",
+      "input_smiles": "CC1=C(C2=C(N3C(C)=NN=C3[C@H](CC(NCCN4CCC5(CC4)CN(C(C=C67)=CC=C7CN([C@H]8CCC(NC8=O)=O)C6=O)C5)=O)N=C2C9=CC=C(C=C9)Cl)S1)C",
+      "number_of_unique_states": 1,
+      "states": [
+        {
+          "smiles": "Cc1sc2c(c1C)C(c1ccc(Cl)cc1)=N[C@@H](CC(=O)NCC[NH+]1CCC3(CC1)CN(c1ccc4c(c1)C(=O)N([C@H]1CCC(=O)NC1=O)C4)C3)c1nnc(C)n1-2",
+          "formal_charge": 1
+        }
+      ]
+    },
+    {
+      "compound": "8",
+      "input_smiles": "ClC1=CC=C(C2=N[C@H](C(N3C4=C2C(C)=C(C)S4)=NN=C3C)CC(NCCCN5CCC6(CN(C6)C7=CC=C(CN([C@@H]8C(NC(CC8)=O)=O)C9=O)C9=C7)CC5)=O)C=C1",
+      "number_of_unique_states": 1,
+      "states": [
+        {
+          "smiles": "Cc1sc2c(c1C)C(c1ccc(Cl)cc1)=N[C@@H](CC(=O)NCCC[NH+]1CCC3(CC1)CN(c1ccc4c(c1)C(=O)N([C@H]1CCC(=O)NC1=O)C4)C3)c1nnc(C)n1-2",
+          "formal_charge": 1
+        }
+      ]
+    }
+  ],
+  "purpose": "Protonation-state enumeration; not numerical pKa estimation or automatic working-state selection",
+  "parameters": {
+    "ph_min": 7.4,
+    "ph_max": 7.4,
+    "precision": 0.0,
+    "max_variants": 32
+  },
+  "input_sha256": "7a4290a6326c60f21108985ad5610e66b8d5f28effec0f9b6ebf8a25b83508d4",
+  "rule_table_sha256": "1fda9f2ba85a36437c58e2c4665e932a52d95153d328644912794471c0c0c7e3",
+  "ordering": "Canonical isomeric SMILES sorted lexically; order is not a probability ranking"
+}
